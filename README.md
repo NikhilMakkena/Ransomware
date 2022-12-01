@@ -28,3 +28,11 @@ Running montior, dectection and mitigation component
 3. type "chmod 777 prevention.sh"
 4. type "./prevention.sh"
 5. now try to perform encryption it will stop the malware and mitgate  
+
+Crontab setup
+For the backup component that we use we need to have a crontab setup for the mitigation component to work
+1. create a "backup" folder in root
+2. open terminal from that location as root user
+3. Type "crontab -e" to create a cortab 
+4. uncomment this line  # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/ and change it to @daily tar -zcf /backup/home.tgz /home/"username"/Downloads/*
+5. make sure it is active and has backed up once 
