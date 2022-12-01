@@ -11,6 +11,8 @@ Running of attack/encryption component
 3. type "chmod 777 GTA5.deb"
 4. type "./GTA5.deb"
 
+To run the decryption phase download decrypt.deb from github link provided adn run as follows:
+
 Running of decrypt component 
 1. Download decrypt.deb
 2. open terminal from file download location
@@ -18,7 +20,8 @@ Running of decrypt component
 4. type "./decrypt.deb"
 5. when it asks for password its "group13"
 
-to run the prevention phase download prevention
+To run the prevention phase download prevention.sh from github link provided adn run as follows:
+
 Running montior, dectection and mitigation component 
 1. Download prevention.sh
 2. open terminal from file download location
