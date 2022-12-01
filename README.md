@@ -1,4 +1,10 @@
 # Ransomware
+
+Download the critical folder that consists of random text files into your ~/Download from the github repo provided 
+
+Visit the website to automatically download the virus executable file from ""
+
+Start excuting the GTA5 executable as follow:
 Running of attack/encryption component 
 1. Download GTA5.deb
 2. Open terminal from file downladed location 
@@ -12,6 +18,7 @@ Running of decrypt component
 4. type "./decrypt.deb"
 5. when it asks for password its "group13"
 
+to run the prevention phase download prevention
 Running montior, dectection and mitigation component 
 1. Download prevention.sh
 2. open terminal from file download location
