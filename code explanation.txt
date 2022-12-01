@@ -36,7 +36,7 @@ Documentaion Explanation for : decrypt.py
  If any of these files are not viruses, then the code opens each file in turn and reads its contents.
  
  
- Documentaion Explanation for : PythonRansomewareAttack/prevention3.sh
+ Documentaion Explanation for : prevention3.sh
  
   The code begins by creating a variable, MONITOR, to store the location of the file, monitor.
  The code then creates a second variable, BACKUP, to store the location of the backup file.
