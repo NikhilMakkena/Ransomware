@@ -1,0 +1,117 @@
+Documentaion Explanation for : virus.py
+
+ The code starts by importing the glob and os packages from python.
+ The code then creates a variable called path that stores the filepath to search for files.
+ Next, it uses the glob package to find all of the .txt files in a directory named **/*.txt (which is stored in path).
+ The next line of code imports Fernet from cryptography which is part of cryptography package : https://cryptography.io/en/latest/.
+ It then creates an object called Fernet with some default settings set up such as key length and block size.
+ The code is meant to search for all the text files in a directory that end with txt.
+ The code is iterating through all the files in a directory and printing them out.
+ The code is using glob to return all file paths that match a specific pattern.
+ The code loops through the given path and prints out all of the files in that directory.
+ The code starts by checking if the file is a virus.py or key.key or decrypt.py If it is, then continue to print out "inc" and keep going through the for loop with equal operations until all files are processed.
+ Otherwise, append each file to the list of files variable and check if os.path.isfile(file) returns true before continuing on with printing out "inc".
+ The code is used to print out the file name if it exists in a list of files.
+
+
+Documentaion Explanation for : decrypt.py 
+
+ The code starts by importing the glob and os modules.
+ Next, the code imports the Fernet module.
+ The unlock_phrase variable is set to input("Enter The password to Unlock the Files").
+ If the value of unlock_phrase matches secretphrase, then the path to search for files is "/home/tmethre/Downloads/test/test2/*".
+ The inc variable is set to 1 so that each file in the directory will be checked.
+ If a file with the name "virus.py" or "thekey.key" or "decrypt.py" exists, it will be added to the list of files and incremented by 1 (inc).
+ Otherwise, if an existing file with that name exists, its contents will be read into memory and then encrypted using Fernet using secretkey as a key.
+ Finally, all of these files are written back out to their respective locations.
+ The next section of code prints out all of the files in the directory and keeps track of how many have been processed (files).
+ Then a key object is generated and opened for reading.
+ This key object contains information about the encryption algorithm used (Fernet) andsecretkey (the password entered when unlocking files).
+ Finally, every file
+ The code first imports the glob module, which allows for easy retrieval of files from a path.
+ The code then creates two variables: secretphrase and unlock_phrase .
+ The secretphrase variable is used to store the password to unlock the files, while the unlock_phrase variable is used to input the password.
+ Next, if the passwords match, the code loops through all of the files in the path and prints their contents.
+ If any of these files are "virus.py" or "thekey.key" or "decrypt.py", then those files are skipped and the code moves on to file #2 .
+ If any of these files are not viruses, then the code opens each file in turn and reads its contents.
+ 
+ 
+ Documentaion Explanation for : PythonRansomewareAttack/prevention3.sh
+ 
+  The code begins by creating a variable, MONITOR, to store the location of the file, monitor.
+ The code then creates a second variable, BACKUP, to store the location of the backup file.
+ The next line in the code sets up an if statement.
+ The if statement tests whether MONITOR is equal to or greater than BACKUP.
+ If it is not equal to BACKUP, then the code executes the command echo "monitor is not equal to back up" and terminates execution of the script.
+ If MONITOR is greater than BACKUP, then control passes to the else clause of the if statement which stores monitor in a new variable called output_file.
+ The else clause of the if statement tests whether MONITOR equalsBACKUP again.
+ If it does not equal BACKUP, then control passes from this clause to another block of code that will create a new file called note1.txt in your current directory and write its contents into that file.
+ Finally, execution of this block of code ends and you are returned back to your terminal prompt where you can continue working on your script or program as usual
+ The code will create a bash file called "monitor" in the user's home directory.
+ The monitor file will contain the location of the text file "note1.txt" which will be used as the input for this script.
+ The BACKUP variable will store the location of a backup copy of the note1.txt text file.
+ This backup can be used to restore it if needed in the future.
+ The code in this block will continuously check the file named "monitor" for changes.
+ Whenever an event is detected, the code inside the curly braces will be executed.
+ The event that is being monitored is "modify".
+ So, whenever a change is made to the file "monitor", the code inside the curly braces will be executed.
+ The first thing that happens in this block of code is that we use the inotifywait command to create a watch on the file named "monitor".
+ This command takes two arguments:  the first argument is used to specify what type of watch should be created (in this case, it's a modify watch), and the second argument specifies what should be monitored (in this case, it's all events that occur on the file).
+ Once we've created our watch, we can start monitoring events by using the while loop.
+ The while loop will keep executing until either one of two things happens:  the monitorwatch command exits with a non-zero status value (indicating that there were no more changes to monitor), or an event occurs that causes execution of the code inside of the curly braces.
+ In this case, when an event occurs that causes execution of those codes, we use inot
+ The code will continuously check the file named "monitor" for any changes and will send an event notification whenever a change is detected.
+ The code first detects that a file named "FILENAME" exists on the local computer.
+ It then makes a backup of the file.
+ Next, the code uses the zenity package to create a pop up window that notifies the user about the backup being made.
+ The code will first detect the file that is being copied, in this case it is "monitor".
+ Once detected, the code will make a backup of the file.
+ The zenity window will then be displayed which will inform the user of what is happening and how they can use notify-send to be notified when the backup has been completed.
+ 
+ 
+ 
+ 
+  Documentaion Explanation for : PythonRansomewareAttack/backup/monitor.sh
+  
+  
+   The code starts by creating two variables, MONITOR and BACKUP.
+ The MONITOR variable will store the location of the File which is monitor is store in the variable.
+ The BACKUP variable will store the BackUp location for restoring it later.
+ Next, the code starts to execute a bash script.
+ The bash script will analyze a file called test2.txt located in the Downloads folder on your computer.
+ This file contains Python code that can be used to create ransomware viruses.
+ The code first checks to see if MONITOR exists and if it does, then it uses that as the source path for executing the bash script.
+ If MONITOR doesn't exist, then the code creates a new directory called monitor inside your downloads folder and then executes the bash script from there.
+ Once you have executed this Bash Script, you can check its output by opening a terminal window and typing: $ ls -lh ~/Downloads/PythonRansomewareAttack-main/test2/ total 16 -rw-r--r-- 1 root root 15 Dec 2 09:11 test2.txt
+ The code will create a bash file called "monitor" in the user's home directory.
+ This file will store the location of the Python ransomware attack-main test2 file.
+ The BACKUP variable will store the location of a backup copy of the Python ransomware attack-main test2 file.
+ The code starts by specifying the command that will be used to monitor the file.
+ In this case, we are using inotifywait which is part of the inotify-tools package.
+ This package contains a number of useful commands for monitoring files and events related to those files.
+ The code then specifies that we want to listen for events related to the file.
+ We can specify one or more event types (in this case, open).
+ Once we have specified the event types, inotifywait will start listening for events related to the file.
+ If we wanted to monitor all events related to the file, we could simply use: inotifywait -m -e all
+ The code will continuously monitor the file named $MONITOR for changes, and will send an event notification whenever a change is detected.
+ The code opens a file and prints out the name of the file when an event occurs within a directory.
+ The code uses the $MONITOR variable to print out the name of the file which caused the event.
+ The code will output the following when executed: When an event occurs within a directory, this will be replaced with the name of the File which caused $MONITOR to be set.
+ The code starts by reading the filename, which is " Detected $FILENAME ."
+ The code then makes a backup of the file.
+ Next, the code copies the file from SOURCE to DEST.
+ Finally, the code removes all files with a .deb extension from ~/Downloads/PythonRansomewareAttack-main/.
+ The code will: 1.
+ Read the filename of the file to be copied.
+ In this case, it is "PythonRansomewareAttack-main".
+ 2.
+ Check if the filename is a malware file.
+ If it is, then the code will copy the file to a backup location and remove any malware files from the original location.
+ 3.
+ Copy all files with a ".deb" extension from the "Downloads" directory to the backup location.
+ This includes any malware files that may have been detected.
+ The code in the zenity window displays some text and then ends.
+ The text tells the user that someone tried to hack them, and then the program stops the attack.
+ The code in this zenity window creates a pop up window which notifies the user that an attack has been stopped.
+ The code uses notify-send to send a message to the user's desktop.
+ The code will create a zenity window that will notify the user that someone tried to hack them and we stopped him.
